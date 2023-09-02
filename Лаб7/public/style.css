@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div{
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.form {
+    width: 300px;
+}
+
+.form div {
+    width: 100%;
+    display: block;
+    margin: 35px 0;
+}
+
+.form__button {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.link:last-child {
+    margin-right: 0;
+}

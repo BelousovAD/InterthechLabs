@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.item {
+  font-size: 23px;
+  margin-right: 35px;
+}
+
+.item:last-child{
+  margin-right: 0;
+}
+
+.p {
+  min-width: 600px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  max-width: 125px;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #000;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.green {
+  color: green;
+}
+
+.back {
+  background-color: blue;
+  color: white;
+}

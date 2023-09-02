@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 7</title>
+</head>
+<body>
+    <div class="navigate">
+        <div class="links">
+            <a href="/first" class="link">First Template</a>
+            <a href="/second" class="link">Second Template</a>
+            <a href="/third" class="link">Third Template</a>
+            <a href="/fourth" class="link">Fourth Template</a>
+            <a href="/fifth" class="link">Fifth Template</a>
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <form action="/" class="form" method="POST">
+                <div class="form__name name">
+                    <label class="name__label">Name:</label> 
+                    <input class="name__input" type="text" name="Name">
+                </div>
+                <div class="form__gender gender">
+                    <label class="gender__label">Gender:</label>
+                    <input class="gender__male" type="radio" name="Gender" value="male"> Male 
+                    <input class="gender__female" type="radio" name="Gender" value="female"> Female 
+                </div>
+                <div class="form__select select">
+                    <label class="select__label">Shoes:</label>
+                    <select name="Shoes">
+                        <option value="black">Black</option>
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+                <div class="form__button">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!--
+   . div, span, a, p, img, table, ul, h1-3
+   . iframe
+   . meta (настроить кодировку, keywords, description)
+   . элементы форм (input, select, button и пр.)
+   . форматирование текста -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- Настроить keywords, description -->
+    <meta name="keywords" content="Лабораторная работа, Интернет технологии, HTML">
+    <meta name="description" content="Лабораторная работа №1 по курсу 'Интернет технологии'">
+    <title>Лабораторная работа №1</title>
+</head>
+<body>
+	<h1> Лабораторная работа №1</h1>
+	<h3> Белоусов А.Д. КИ19-06Б</h3>
+	<div>
+	    <h2>Навигация по странице</h2>
+		<ul>   
+	        <li><a href="#img-example">Картинка</a></li>
+	        <li><a href="#table-example">Таблица</a></li>
+	        <li><a href="#iframe-example">Iframe</a></li>
+	        <li><a href="#form-example">Формы и кнопки</a></li>
+	        <li><a href="#text-example">Форматирование текста</a> </li>
+	    </ul>
+	</div>
+
+	<div>
+	    <h2 id=img-example>Пример img</h2><br>
+		<img src="33.png" alt="Пионерская звезда" height="250" width="250">
+	</div>
+
+	<div>
+	    <h2 id=table-example>Пример table</h2><br>
+	    <table border="5">
+	    <tr>
+			<th>Заголовок 1</th>
+			<th>Заголовок 2</th>
+			<th>Заголовок 3</th>
+	    </tr>
+		<tr>
+			<td>Ячейка 1-1</td>
+			<td>Ячейка 1-2</td>
+			<td>Ячейка 1-3</td>
+		</tr>
+		<tr>
+			<td>Ячейка 2-1</td>
+			<td>Ячейка 2-2</td>
+			<td>Ячейка 2-3</td>
+		</tr>
+		<tr>
+			<td>Ячейка 3-1</td>
+			<td>Ячейка 3-2</td>
+			<td>Ячейка 3-3</td>
+		</tr>
+	    </table>
+	</div>
+
+	<div>
+	    <h2 id=iframe-example>Пример iframe</h2><br>
+		<iframe src="https://www.youtube.com/embed/Xc5o7DyI0-4" allowfullscreen"></iframe>
+	</div>
+
+	<div>
+	    <h2 id=form-example>Пример form</h2><br>
+	    <h3>Заполните следующие формы:</h3>
+	    <form action="">
+			<fieldset> 
+				Личная информация: <br>
+				<label for="firstname"> Имя: </label>
+				<input type="text" id="firstname"><br>
+				<label for="password"> Ваш пароль: </label>
+				<input type="password" id="password"><br>
+				Ваш пол:
+					<select size=1>
+						<option value=1>Выберите</option>
+						<option value=2> Мужской </option>
+						<option value=3> Женский </option>
+					</select><br>
+				<input type="submit">
+				<input type="reset">
+	    	</fieldset>
+	    </form>
+	</div>
+	
+	<div>   
+	    <h2 id=text-example>Пример форматирования текста</h2>
+		<p>
+			HTML (<span style="color: green">от англ. HyperText Markup Language — «язык гипертекстовой разметки»</span>) — стандартизированный язык разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+		</p>
+		<p>
+			В HTML можно встроить программый код на языке программирования JavaScript, для управления поведением и содержанием веб-страниц. Также включение CSS в HTML описывает внешний вид и макет страницы.
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{ 
+    "name":"Stickers",
+    "images":[
+       {"name":"Photo 1","file":"images/3.png"},
+       {"name":"Photo 2","file":"images/6.png"},
+       {"name":"Photo 3","file":"images/12.png"}
+    ]
+}
